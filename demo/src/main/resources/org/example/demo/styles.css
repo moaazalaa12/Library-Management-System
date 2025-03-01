@@ -1,0 +1,146 @@
+.list-cell {
+    -fx-alignment: center;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-font-weight : bold;
+    -fx-cursor: hand;
+}
+
+#menu-item{
+    -fx-alignment: center;
+    -fx-font-size: 10px;
+    -fx-padding: 8px;
+    -fx-font-weight : bold;
+    -fx-cursor: hand;
+}
+
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #f0f2f5, #c9d6ff);
+}
+
+.grid-pane {
+    -fx-alignment: center;
+    -fx-padding: 20;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #999999;
+    -fx-font-weight : bold;
+}
+#next_back {
+    -fx-cursor: hand;
+    -fx-padding: 5 10;
+    -fx-background-radius: 3;
+    -fx-font-size: 10px;
+}
+#next_back:hover
+{
+    -fx-background-color: #45a049;
+}
+#top_bar{
+    -fx-background-color: linear-gradient(to right, #2980b0, #1c3e20);
+}
+.menu_button{
+   -fx-background-color: #4CAF50;
+   -fx-background-radius: 5;
+   -fx-text-fill: white;
+   -fx-font-size: 10px;
+   -fx-padding: 5 10;
+   -fx-cursor: hand;
+   -fx-font-weight : bold;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+    -fx-font-weight : bold;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+#profile{
+-fx-background-radius: 15;
+-fx-padding:0;
+}
+#profile:hover {
+-fx-background-color: #45a049;
+-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0.6, 0, 2);
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+.hyperlink {
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+/* Style for the CheckBox */
+.check-box {
+    -fx-text-fill: #333333; /* Text color */
+    -fx-font-size: 12px; /* Font size */
+    -fx-font-weight: bold; /* Font weight */
+}
+
+/* Style for the CheckBox when it is selected */
+.check-box:selected .box {
+    -fx-background-color: #4CAF50; /* Background color when selected */
+    -fx-border-color: #4CAF50; /* Border color when selected */
+}
+
+/* Style for the CheckBox when it is not selected */
+.check-box .box {
+    -fx-background-color: #ffffff; /* Background color */
+    -fx-border-color: #cccccc; /* Border color */
+    -fx-border-radius: 2px; /* Border radius */
+}
+
+/* Style for the checkmark inside the CheckBox */
+.check-box:selected .mark {
+    -fx-background-color: #ffffff; /* Checkmark color */
+}
+
+
+.check-box:hover .box {
+    /*-fx-background-color: #f0f0f0;*/
+    -fx-border-color: #4CAF50;
+}
+
+.icon {
+    -fx-fill: black;
+    -fx-font-family:FontAwesome;
+    -fx-font-size: 25px;
+}
+
+.tooltip {
+    -fx-font-size: 10px;
+    /*-fx-background-color: #2c3e50;*/
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-padding: 5 7;
+    -fx-border-radius: 1px;
+    -fx-background-radius: 5px;
+    -fx-border-color:white;
+    -fx-border-width:2;
+}
